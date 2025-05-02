@@ -27,7 +27,7 @@ export const invasivePlants: Plant[] = [
     ],
     impact: 'It can wrap around small trees and shrubs and kill them by blocking sunlight. It creates "mats" that prevent native plants from growing.',
     whereFound: 'Found in forests, fields, and along roads throughout Kentucky.',
-    imageUrl: 'https://images.pexels.com/photos/7788525/pexels-photo-7788525.jpeg',
+    imageUrl: 'https://extension.psu.edu/media/wysiwyg//extensions/catalog_product/01e938ab7f95470ab4f25c8ea088be5b/j/a/japanesehoneysuckleflowers-jpg_1.jpg',
     difficultyLevel: 'easy'
   },
   {
@@ -44,7 +44,7 @@ export const invasivePlants: Plant[] = [
     ],
     impact: 'Known as "the vine that ate the South," it smothers other plants and trees, eventually killing them by blocking sunlight.',
     whereFound: 'Common in southern and eastern Kentucky along roadsides and in abandoned fields.',
-    imageUrl: 'https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Kudzu_on_trees_in_Atlanta%2C_Georgia.jpg',
     difficultyLevel: 'easy'
   },
   {
@@ -61,7 +61,7 @@ export const invasivePlants: Plant[] = [
     ],
     impact: 'Creates very dense thickets that crowd out native plants and provide perfect habitat for ticks that spread Lyme disease.',
     whereFound: 'Found in forests, fields, and gardens across Kentucky.',
-    imageUrl: 'https://images.pexels.com/photos/4505947/pexels-photo-4505947.jpeg',
+    imageUrl: 'https://extension.umd.edu/sites/extension.umd.edu/files/styles/optimized/public/2021-01/japanese-barberry.jpg?itok=prSG84t3',
     difficultyLevel: 'medium'
   },
   {
