@@ -50,7 +50,7 @@ const PlantMatch: React.FC = () => {
       // Name card
       cardPairs.push({
         id: `name-${plant.id}`,
-        content: plant.name,
+        content: plant.reverseName,
         type: 'name',
         plantId: plant.id,
         isFlipped: false,

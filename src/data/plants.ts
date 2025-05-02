@@ -2,6 +2,7 @@
 export interface Plant {
   id: string;
   name: string;
+  reverseName: string;
   scientificName: string;
   description: string;
   identifyingFeatures: string[];
@@ -15,6 +16,7 @@ export const invasivePlants: Plant[] = [
   {
     id: 'japanese-honeysuckle',
     name: 'Japanese Honeysuckle',
+    reverseName: 'elkcusyenoH esenapaJ',
     scientificName: 'Lonicera japonica',
     description: 'Japanese Honeysuckle is a woody vine that can grow up to 80 feet long. It has fragrant white or yellow flowers and produces black berries.',
     identifyingFeatures: [
@@ -31,6 +33,7 @@ export const invasivePlants: Plant[] = [
   {
     id: 'kudzu',
     name: 'Kudzu',
+    reverseName: 'uzduK',
     scientificName: 'Pueraria montana',
     description: 'Kudzu is a fast-growing vine that can grow up to a foot per day! It covers trees, buildings, and anything in its path.',
     identifyingFeatures: [
@@ -47,6 +50,7 @@ export const invasivePlants: Plant[] = [
   {
     id: 'japanese-barberry',
     name: 'Japanese Barberry',
+    reverseName: 'yrrebraB esenapaJ',
     scientificName: 'Berberis thunbergii',
     description: 'Japanese Barberry is a spiny shrub with red berries. It was brought to America as a decorative plant for gardens.',
     identifyingFeatures: [
@@ -63,6 +67,7 @@ export const invasivePlants: Plant[] = [
   {
     id: 'tree-of-heaven',
     name: 'Tree of Heaven',
+    reverseName: 'nevaeH fo eerT', 
     scientificName: 'Ailanthus altissima',
     description: 'Despite its name, this tree is not so heavenly! It grows very quickly and can reach 80 feet tall.',
     identifyingFeatures: [
@@ -79,6 +84,7 @@ export const invasivePlants: Plant[] = [
   {
     id: 'multiflora-rose',
     name: 'Multiflora Rose',
+    reverseName: 'esoR arolfitluM',
     scientificName: 'Rosa multiflora',
     description: 'This thorny shrub can form impenetrable thickets. It was originally planted to control erosion and create living fences for livestock.',
     identifyingFeatures: [
@@ -95,6 +101,7 @@ export const invasivePlants: Plant[] = [
   {
     id: 'garlic-mustard',
     name: 'Garlic Mustard',
+    reverseName: 'dratsuM cilraG', 
     scientificName: 'Alliaria petiolata',
     description: 'Garlic Mustard is a biennial herb that smells like garlic when the leaves are crushed. It can quickly take over forest floors.',
     identifyingFeatures: [
