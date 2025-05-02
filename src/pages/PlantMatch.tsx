@@ -50,7 +50,7 @@ const PlantMatch: React.FC = () => {
       // Name card
       cardPairs.push({
         id: `name-${plant.id}`,
-        content: plant.reverseName,
+        content: plant.name,
         type: 'name',
         plantId: plant.id,
         isFlipped: false,
@@ -210,7 +210,7 @@ const PlantMatch: React.FC = () => {
                   key={card.id}
                   onClick={() => handleCardClick(card)}
                   className={`relative h-32 sm:h-40 cursor-pointer rounded-lg transform transition-transform ${
-                    card.isFlipped ? 'rotate-y-180' : ''
+                    card.isFlipped ? '' : ''
                   } ${card.isMatched ? 'opacity-60' : ''}`}
                 >
                   {/* Card Back */}
